@@ -7,16 +7,9 @@ const reverseString = function(word) {
     return reverseword
 };
 
-console.log(reverseString('hello world'));
+/* solution from Odin*/
+// const reverseString = function(string) {
+//     return string.split('').reverse().join('');
+//    };
 
-// let test = '';
-// let word = "abc de";
-// let substring = word.split('');
-
-// test += substring[5];
-// console.log(test);
-// console.log(substring[5]);
-
-// console.log(substring.length);
-// Do not edit below this line
 module.exports = reverseString;
